@@ -1,0 +1,25 @@
+import rpc
+import time
+
+client_id = '434079082339106827'
+rpc_obj = rpc.DiscordIpcClient.for_platform(client_id)
+time.sleep(5)
+start_time = time.time()
+filename = 'test.blend'
+version_no = '2.79'
+while True:
+    activity = {
+            "details": "Using Blender " + version_no,
+            "state": "Working on " + filename,
+            "timestamps": {
+                "start": start_time
+            },
+            "assets": {
+                "small_text": "Blender " + version_no,
+                "small_image": "blender_logo",
+                "large_text": filename,
+                "large_image": "pretty_render"
+            }
+        }
+    rpc_obj.set_activity(activity)
+    time.sleep(30)
