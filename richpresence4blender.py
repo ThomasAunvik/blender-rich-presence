@@ -1,3 +1,16 @@
+bl_info = {
+    "name": "Discord Rich Presence",
+    "description": "Adds Rich Presence support to Blender",
+    "author": "@AlexApps#9295, @lvxejay#9771",
+    "version": (0, 1),
+    "blender": (2, 79, 0),
+    "location": "",
+    "warning": "Extremely Unstable - Still in development!",
+    "wiki_url": "",
+    "tracker_url": "",
+    "support": "COMMUNITY",
+    "category": "System"
+    }
 import rpc
 import time
 
