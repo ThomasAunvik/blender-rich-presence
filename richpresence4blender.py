@@ -6,8 +6,8 @@ bl_info = {
     "blender": (2, 79, 0),
     "location": "",
     "warning": "Extremely Unstable - Still in development!",
-    "wiki_url": "",
-    "tracker_url": "",
+    "wiki_url": "https://github.com/AlexApps99/blender-rich-presence/wiki",
+    "tracker_url": "https://github.com/AlexApps99/blender-rich-presence/issues",
     "support": "COMMUNITY",
     "category": "System"
     }
