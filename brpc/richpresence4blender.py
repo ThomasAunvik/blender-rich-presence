@@ -11,7 +11,7 @@ bl_info = {
 	"support": "COMMUNITY",
 	"category": "System"
 	}
-import rpc
+from . import rpc
 import time
 import bpy
 
